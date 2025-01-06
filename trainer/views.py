@@ -548,3 +548,6 @@ def generate_speaking_statement(request):
      except Exception as e:
          print("Error generating speaking statement:", e)
          return JsonResponse({'error': 'Failed to generate statement.'}, status=500)
+     
+
+     hellooooo
